@@ -110,6 +110,9 @@ a.templatemo-white-text:focus {
   font-size: 40px;
   margin-bottom: 20px;
 }
+.templatemo-site-name img{
+  width: 75px;
+}
 
 /* 2. Navigation Styles
 ----------------------------------------*/
@@ -314,6 +317,12 @@ footer {
     color: #DEDEDE;
     height: 50px;
     line-height: 50px;
+  }
+  .templatemo-site-name {
+    font-size: 22px;
+  }
+  .templatemo-site-name img{
+    width: 38px;
   }
   .templatemo-nav {
     background: rgba(109, 87, 38, 0);
