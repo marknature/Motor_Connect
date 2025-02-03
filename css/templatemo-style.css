@@ -196,6 +196,7 @@ a.templatemo-white-text:focus {
   position: absolute;
   bottom: 40px;
   right: 20px;
+  text-align: right;
 }
 .service-canvas-overlay-container {
   position: absolute;
