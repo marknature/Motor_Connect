@@ -383,6 +383,11 @@ footer {
 
 @media screen and (max-width: 555px) {
   .templatemo-canvas-big { width: 300px; }
+
+  #img_history, #canvas_history {
+    width: auto;
+    max-width: 85%;
+  }
 }
 
 
