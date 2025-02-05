@@ -236,14 +236,10 @@ $(function() {
 
   detectViewPortAndSetNav();
 
-  /* Google map
-  --------------------------- */
-  loadGoogleMap();
+
 });
 
-$(window).resize(function() {
-  detectViewPortAndSetNav();
-})
+
 
 /* History
 --------------------------- */
@@ -255,3 +251,13 @@ $(window).resize(function() {
     if (this.complete) $(this).load();
   });
 
+  /* Contact 
+  ------------------------- */
+  $(document).ready(function() {
+    /* Draw Contact canvas */
+    $("#img_contact").one('load', function() {
+      drawImage("contact", 'big'); 
+    }).each(function() {
+      if (this.complete) $(this).trigger('load');
+    });
+  });
