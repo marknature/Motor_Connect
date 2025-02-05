@@ -14,6 +14,7 @@ TABLE OF CONTENT
   5. Contact & Footer Styles
   6. Media Queries
   
+
 --------------------------------------*/
 /* 1. Universal Styles
 --------------------------------------*/
@@ -114,6 +115,7 @@ a.templatemo-white-text:focus {
   width: 75px;
 }
 
+
 /* 2. Navigation Styles
 ----------------------------------------*/
 .templatemo-nav {
@@ -183,6 +185,7 @@ a.templatemo-white-text:focus {
 #twitter { background: url('../images/social-icons.png') -59px 0; }
 #google { background: url('../images/social-icons.png') -113px 0; }
 
+
 /* 3. Services Styles
 -----------------------------------------*/
 .templatemo-service-container,
@@ -229,6 +232,7 @@ a.templatemo-white-text:focus {
   margin: auto;
 }
 
+
 /* 3.1. History Styles
 ----------------------------------------- */
 .templatemo-position-relative {
@@ -245,6 +249,7 @@ a.templatemo-white-text:focus {
   height: auto;  /* Maintain aspect ratio */
   max-width: 100%;
 }
+
 
 /* 4. Gallery Styles
 -------------------------------------------*/
@@ -289,6 +294,7 @@ a.templatemo-white-text:focus {
   margin: 0;
 }
 
+
 /* 5. Contact & Footer Styles
 ---------------------------------------------- */
 form { width: 100%; }
@@ -303,6 +309,7 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 
 /* 6. Media Queries
 --------------------------------------*/
@@ -377,6 +384,9 @@ footer {
 @media screen and (max-width: 555px) {
   .templatemo-canvas-big { width: 300px; }
 }
+
+
+
 
 
 /* 
