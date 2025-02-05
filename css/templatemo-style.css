@@ -229,6 +229,23 @@ a.templatemo-white-text:focus {
   margin: auto;
 }
 
+/* 3.1. History Styles
+----------------------------------------- */
+.templatemo-position-relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+#img_history, #canvas_history {
+  width: 400px;  /* Adjust width */
+  height: auto;  /* Maintain aspect ratio */
+  max-width: 100%;
+}
+
 /* 4. Gallery Styles
 -------------------------------------------*/
 .templatemo-gallery-item {
@@ -280,7 +297,7 @@ form { width: 100%; }
   border-color: #685712;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(104,87,18,.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.288),0 0 8px rgba(104,87,18,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(104,87,18,.6);
 }
 footer {
   padding-top: 15px;
@@ -357,7 +374,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 555px) {
   .templatemo-canvas-big { width: 300px; }
 }
 

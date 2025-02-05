@@ -244,3 +244,14 @@ $(function() {
 $(window).resize(function() {
   detectViewPortAndSetNav();
 })
+
+/* History
+--------------------------- */
+
+  /* Draw History canvas */
+  $("#img_history").one('load', function() {
+    drawImage("history", 'big'); 
+  }).each(function() {
+    if (this.complete) $(this).load();
+  });
+
