@@ -234,8 +234,8 @@ a.templatemo-white-text:focus {
 
 
 /* 3.1. History Styles
------------------------------------------ */
-.templatemo-position-relative {
+-----------------------------------------*/
+.templatemo-position-relative_hc {
   position: relative;
   display: flex;
   justify-content: center;
