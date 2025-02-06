@@ -267,9 +267,9 @@ a.templatemo-white-text:focus {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 195px;
+  height: 200px;
   width: 100%;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0,0,0,0.895);
   transition: all 0.35s ease;
 }
 .templatemo-gallery-image-overlay {
@@ -282,7 +282,7 @@ a.templatemo-white-text:focus {
   transition: all 0.3s ease;
 }
 .templatemo-gallery-item:hover .templatemo-gallery-image-overlay {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
 }
 .blockquote-reverse {
   border-right: 3px solid #C3AC4F;
