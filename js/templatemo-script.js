@@ -1,4 +1,5 @@
 /*  Shaped  Javascript */
+
 function coordinate(x,y) {
   this.x = x;
   this.y = y;
@@ -39,6 +40,7 @@ pointsSmall.push(new coordinate(90,345)); // 11
 pointsSmall.push(new coordinate(90,320)); // 12
 pointsSmall.push(new coordinate(0,245)); // 13
 
+
 /* Google map on canvas (https://gist.github.com/strongwave/1294209)
 --------------------------------------------------------------------*/
 function loadGoogleMap() {
@@ -73,6 +75,7 @@ function loadGoogleMap() {
   }  
 }
 
+
 /* Draw irregular shaped images with canvas
 --------------------------------------------------------*/
 function drawPath(ctx, pointsArray, fromIndex, toIndex, fillColor, toTop, borderWidth) {
@@ -106,6 +109,7 @@ function drawPath(ctx, pointsArray, fromIndex, toIndex, fillColor, toTop, border
   ctx.fillStyle=fillColor;
   ctx.fill();
 }
+
 
 /* Draw Image and borders on canvas
 ----------------------------------------------------------- */
@@ -154,6 +158,7 @@ function drawImage(imageName, canvasSize) {
   drawPath(ctx, currentPoints, 12,13, black, false, currentBottomBorderWidth);
 }
 
+
 var detectViewPortAndSetNav = function() {
 
     var viewPortWidth = $(window).width();
@@ -173,9 +178,11 @@ var detectViewPortAndSetNav = function() {
     });
 }
 
+
 /* HTML document is loaded.
 ------------------------------------------------*/
 $(function() {
+
 
   /* Draw Home and About canvases
   --------------------------------*/
@@ -190,6 +197,7 @@ $(function() {
   }).each(function() {
     if(this.complete) $(this).load();
   });
+
 
   /* Draw Services canvases
   -----------------------------------------------------*/
@@ -216,6 +224,7 @@ $(function() {
     ctx.fillStyle = "rgba(20,20,20,0.5)";
     ctx.fill();   
   });
+
 
   /* Mobile Menu, after clicking a link, close the menu
   -----------------------------------------------------*/
