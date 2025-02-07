@@ -2,7 +2,7 @@
 
 Welcome to the **Motor Connect** repository! This project represents our commitment to delivering seamless, innovative, and sustainable mobility solutions. 
 
-<img src="Logo.jpg" alt="Logo" style="align-items: center; width: 205px; height:auto;">
+<img src="Logo.jpg" alt="Logo">
 
 ### 🌟 About Motor Connect  
 
